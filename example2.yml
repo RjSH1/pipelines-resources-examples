@@ -6,7 +6,7 @@ resources:
       path: /json
 
 pipelines:
-  - name: ExamplePipeline
+  - name: Example_Pipeline
     steps:
     - name: my_send_hook_json
       type: Bash
