@@ -6,7 +6,7 @@ resources:
 
 pipelines:
   - name: ExamplePipeline
-  steps:
+    steps:
     - name: ExampleStep
       type: Bash
       configuration:
